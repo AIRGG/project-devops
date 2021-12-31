@@ -31,6 +31,14 @@ public class ProjectDevops_Tiket {
         orang = 9;
         kereta = new Kereta(orang);
         kereta.hitung(2, true);
+        
+        System.out.println("===========================================");
+        // BUS
+        orang = 2;
+        Bus bus = new Bus(orang);
+        // argo winangung
+        bus.hitung(1, true);
+        // gajah mungkur
+        bus.hitung(2, true);
     }
-    
 }
